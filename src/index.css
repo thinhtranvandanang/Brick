@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #050814;
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+.font-arcade {
+  font-family: 'Barlow Condensed', 'Outfit', sans-serif;
+}
+
+.font-hud {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
